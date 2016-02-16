@@ -1,6 +1,9 @@
+import Html exposing (li, text, ul, span)
+import Html.Attributes exposing (class)
+import String
 
-module Main where
-
-import Html exposing (text)
-
-main = text "wow"
+main =
+    "bingo"
+    |> String.toUpper
+    |> String.repeat 3
+    |> text
